@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andy's Online Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+    <link rel="stylesheet" href="style.css"></link>
+
+</head>
+
+<!--
+Xs : mobile devices, vertical orientation
+Sm : mobile devices, horizontal, small tablets vertical
+Md : most tablets vertical, very small desktop monitors
+Lg : most normal desktop monitors, 17-19 inch
+Xl :widescreen or high-res
+Bootstrap will assume no labels means xs for everything.
+-->
+
+<body>
+
+    <!-- Container Starts -->
+    
+    <div class="container">
+
+        <!-- Header Name -->
+        
+        <header class="row">
+            <div class="col">
+                <h1>Andy's Online Portfolio</h1>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+
+        <div class="row">
+            <div class="col">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light"> 
+                    <a class="navbar-brand" href="index.html">Home</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            <a class="nav-link active" href="contact.html">Contact</a>
+                        </div>                          
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Headlines -->
+        
+        <div class="row">
+            <div class="col-md-7"> 
+                <h2>Need help on an upcoming project?</h2>
+            </div>
+            <div class="col-md-5">    
+                <h2>Enter Your Contact Info</h2>
+            </div>        
+        </div>
+        
+        <!-- Content -->
+
+        <div class="row">
+            
+            <!--- Call to Action -->
+
+            <div class="col-md-7"> 
+                <main>Whether you need content for your digital strategy, an animation that explains your mission, or you'd like to consider hiring me full-time, enter your name, email, and whatever you need in the form to the right and I'll respond as soon as I can.</main>
+                
+            <!--- Demo Reel -->
+                <div class="container-container">
+                <div class="iframe-container">
+                    <iframe width="640" height="360" 
+                    src="https://www.youtube.com/embed/EBv4r806oUs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    <alt>Andy Greenhaw's Demo Reel</alt>
+                    </iframe>
+                </div>
+                </div>
+            </div>
+
+            <!--- Contact Form -->
+            
+            <div class="col-md-5">
+                <form class="form"></form>
+                    <div class="form-group">
+                        <h3><label for="formGroupExampleInput">Name</label></h3>
+                        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="George Washington">
+                    </div>
+                    <div class="form-group">
+                        <h3><label for="formGroupExampleInput2">Email</label></h3>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="gwash@gmail.com">
+                    </div>
+                    <div class="form-group">
+                        <h3><label for="formGroupExampleInput2">How Can I Help?</label></h3>
+                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Message">
+                    </div>
+                </form>
+            </div>                                      
+        </div>
+
+        <!-- Mountain Image Banner -->
+
+        <div class="row">
+            <div class="col-12">
+                <img src="Assets/Mountain-Banner.jpg" alt="Mountain Banner Image" width="100%">
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+<footer>
+</footer>
+
+</html>

@@ -1,0 +1,158 @@
+/* 
+Xs : mobile devices, vertical orientation
+Sm : mobile devices, horizontal, small tablets vertical
+Md : most tablets vertical, very small desktop monitors
+Lg : most normal desktop monitors, 17-19 inch
+Xl :widescreen or high-res
+Bootstrap will assume no labels means xs for everything. 
+*/
+
+div.row > div, header, nav, main
+    {
+        outline: 0px solid gray;
+        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+body 
+    {
+        background-color: white
+    }
+
+h1
+    {
+        text-align: center;
+        font-size: 48px;
+        font-variant: small-caps;
+    }
+
+h2
+    {
+        font-size: 24px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        /* text-indent: 15px; */
+    }
+
+h3
+    {
+        font-size: 18px;
+    }
+
+h4
+    {
+        font-size: 24px;
+        text-align: center;
+    }
+
+nav
+    {
+        font-variant: small-caps; 
+    }
+
+img
+    {
+        margin: 15px 0px 15px 0px
+    }
+
+.project-class
+    {
+        text-align: center;
+        color: white;
+        background-color: rgb(7,130,146);
+        margin-top: 10;
+        margin-bottom: 10;
+    }
+
+span
+    {
+    }
+
+.pwrap 
+    { 
+        text-align: justify; 
+    } 
+
+.form
+    {
+        margin: 0px 20px 20px 20px;
+    }
+
+.container-container
+    {
+        padding: 15px 15px 15px 15px;
+    }
+
+.iframe-container
+    {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%; 
+        height: 0;
+    }
+
+.iframe-container iframe
+    {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.left 
+    {
+        float: left;
+        padding: 15px 15px 15px 15px;
+    }
+
+/* indent-me span
+    {
+        margin-left: 8px;
+    } */
+
+/* NOTE: I only refer to this media inquiry code once on the front index page to make the text wrap*/
+
+/* .imgwrap 
+    {
+        width: 100px;
+        height: auto;
+        } */
+
+/* ALIGNING REFERENCE CODE
+div.row > div, header  
+    {
+        outline: 1px solid gray;
+        padding: 10px;
+    }
+
+    /* nav
+    {
+        font-size: 20px;
+    } */
+
+/* .navbar-position
+    {
+        position: center;
+    } */
+
+/* iframe
+    {
+        position: center;
+        padding: 15px 15px 15px 15px;
+    } */
+
+/* #ContactInfo
+    {
+        padding-left: 00;
+    } */
+
+  
