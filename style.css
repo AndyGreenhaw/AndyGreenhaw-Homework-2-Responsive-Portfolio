@@ -7,8 +7,9 @@ Xl :widescreen or high-res
 Bootstrap will assume no labels means xs for everything. 
 */
 
-div.row > div, header, nav, main
-    {
+/* Universal Tags */
+
+div.row > div, header, nav, main {
         outline: 0px solid gray;
         
         margin-top: 0px;
@@ -22,85 +23,68 @@ div.row > div, header, nav, main
         padding-right: 10px;
     }
 
-body 
-    {
+body {
         background-color: white
     }
 
-h1
-    {
-        text-align: center;
+h1 {
+        font-family: font-family: 'Passion One', cursive;
+        text-align: left;
+        padding-top: 40px;
         font-size: 48px;
-        font-variant: small-caps;
+        /* font-variant: small-caps; */
     }
 
-h2
-    {
-        font-size: 24px;
+h2 {
+        font-family: 'Passion One', cursive
         margin-top: 15px;
         margin-bottom: 15px;
         /* text-indent: 15px; */
     }
 
-h3
-    {
-        font-size: 18px;
-    }
-
-h4
-    {
+h3 {
         font-size: 24px;
-        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 0px;
+        height: 40px;
     }
 
-nav
-    {
-        font-variant: small-caps; 
+h4 {
+        font-size: 18px;
+        text-align: left;
     }
 
-img
-    {
+nav {
+        /* font-variant: small-caps; */
+    }
+
+img {
         margin: 15px 0px 15px 0px
     }
 
-.project-class
-    {
+/* Portfolio Page */
+
+.youtube-container {
+        padding: 15px 15px 15px 15px;
+    }
+
+.project-class {
         text-align: center;
         color: white;
         background-color: rgb(7,130,146);
         margin-top: 10;
         margin-bottom: 10;
+        height: 40;
     }
 
-span
-    {
-    }
-
-.pwrap 
-    { 
-        text-align: justify; 
-    } 
-
-.form
-    {
-        margin: 0px 20px 20px 20px;
-    }
-
-.container-container
-    {
-        padding: 15px 15px 15px 15px;
-    }
-
-.iframe-container
-    {
+.iframe-container {
         position: relative;
         width: 100%;
         padding-bottom: 56.25%; 
         height: 0;
     }
 
-.iframe-container iframe
-    {
+.iframe-container iframe {
         position: absolute;
         top:0;
         left: 0;
@@ -108,18 +92,64 @@ span
         height: 100%;
     }
 
-.left 
+
+/* Contact Page */
+
+.form
+    {
+        margin: 0px 20px 20px 20px;
+    }
+
+/* Social Media */
+
+.social-container {
+    text-align: center;
+    }
+
+.fa {
+    position: center;
+    padding: 10px;
+    margin: 20px 10px 20px 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    lighting-color: 1000;
+    }  
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    }
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+    }
+
+.fa-twitter {
+        background: white;
+        color: #55ACEE;
+    }
+
+/* Dead Code */
+
+/* .pwrap 
+    { 
+        text-align: justify; 
+    }  */
+
+/* .left 
     {
         float: left;
         padding: 15px 15px 15px 15px;
-    }
+    } */
 
 /* indent-me span
     {
         margin-left: 8px;
     } */
-
-/* NOTE: I only refer to this media inquiry code once on the front index page to make the text wrap*/
 
 /* .imgwrap 
     {
