@@ -1,12 +1,3 @@
-/* 
-Xs : mobile devices, vertical orientation
-Sm : mobile devices, horizontal, small tablets vertical
-Md : most tablets vertical, very small desktop monitors
-Lg : most normal desktop monitors, 17-19 inch
-Xl :widescreen or high-res
-Bootstrap will assume no labels means xs for everything. 
-*/
-
 /* Universal Tags */
 
 div.row > div, header, nav, main {
@@ -97,7 +88,12 @@ img {
 
 .form
     {
-        margin: 0px 20px 20px 20px;
+        margin: 0px 20px 20px 25px;
+    }
+
+#contact-copy {
+        margin-left: 25px;
+        margin-right: 25px;
     }
 
 /* Social Media */
@@ -163,7 +159,6 @@ div.row > div, header
         outline: 1px solid gray;
         padding: 10px;
     }
-
     /* nav
     {
         font-size: 20px;
@@ -184,5 +179,3 @@ div.row > div, header
     {
         padding-left: 00;
     } */
-
-  
