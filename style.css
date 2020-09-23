@@ -22,12 +22,13 @@ h1 {
         font-family: 'Fredericka the Great';
         text-align: left;
         padding-top: 40px;
-        font-size: 64px;
+        font-size: 60px;
         /* font-variant: small-caps; */
     }
 
 h2 {
         font-family: 'Fredericka the Great';
+        font-size: 40px;
         margin-top: 15px;
         margin-bottom: 15px;
         /* text-indent: 15px; */
